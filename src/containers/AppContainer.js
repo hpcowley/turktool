@@ -46,6 +46,6 @@ export default class AppContainer extends Component {
 
   render() {
     console.log(this.state.imageURL);
-    return <App imageURL={this.state.imageURL} />
+    return <App imageURL={this.state.imageURL} showSidePanel={true} />
   }
 }
